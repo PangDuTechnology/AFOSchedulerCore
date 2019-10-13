@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66E5986A6B2863D86DA01C04 /* libPods-AFOSchedulerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */; };
 		72A7D85023521940006AB86D /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D84E23521940006AB86D /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72A7D85D235219B5006AB86D /* AFORouterScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7D857235219B5006AB86D /* AFORouterScheduler.m */; };
-		72A7D85E235219B5006AB86D /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D858235219B5006AB86D /* AFOSchedulerCore.h */; };
-		72A7D85F235219B5006AB86D /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D859235219B5006AB86D /* NSObject+AFOScheduler.h */; };
+		72A7D85E235219B5006AB86D /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D858235219B5006AB86D /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A7D85F235219B5006AB86D /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D859235219B5006AB86D /* NSObject+AFOScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72A7D860235219B5006AB86D /* NSObject+AFOScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7D85A235219B5006AB86D /* NSObject+AFOScheduler.m */; };
-		72A7D861235219B5006AB86D /* AFORouterScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D85B235219B5006AB86D /* AFORouterScheduler.h */; };
+		72A7D861235219B5006AB86D /* AFORouterScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A7D85B235219B5006AB86D /* AFORouterScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72A7D862235219B5006AB86D /* AFOSchedulerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A7D85C235219B5006AB86D /* AFOSchedulerCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOSchedulerCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A7D84B23521940006AB86D /* AFOSchedulerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOSchedulerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A7D84E23521940006AB86D /* AFOSchedulerCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerCore.h; sourceTree = "<group>"; };
 		72A7D857235219B5006AB86D /* AFORouterScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFORouterScheduler.m; sourceTree = "<group>"; };
@@ -25,6 +27,8 @@
 		72A7D85A235219B5006AB86D /* NSObject+AFOScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AFOScheduler.m"; sourceTree = "<group>"; };
 		72A7D85B235219B5006AB86D /* AFORouterScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFORouterScheduler.h; sourceTree = "<group>"; };
 		72A7D85C235219B5006AB86D /* AFOSchedulerCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerCore.m; sourceTree = "<group>"; };
+		79D45F688B464FF075856F40 /* Pods-AFOSchedulerCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOSchedulerCore.release.xcconfig"; path = "Target Support Files/Pods-AFOSchedulerCore/Pods-AFOSchedulerCore.release.xcconfig"; sourceTree = "<group>"; };
+		88E8F33F7CA2BA7C2A802180 /* Pods-AFOSchedulerCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOSchedulerCore.debug.xcconfig"; path = "Target Support Files/Pods-AFOSchedulerCore/Pods-AFOSchedulerCore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E5986A6B2863D86DA01C04 /* libPods-AFOSchedulerCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41EE7152E44ABA81B6C21B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B5F76375CE1FECF6837862A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E8F33F7CA2BA7C2A802180 /* Pods-AFOSchedulerCore.debug.xcconfig */,
+				79D45F688B464FF075856F40 /* Pods-AFOSchedulerCore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		72A7D84123521940006AB86D = {
 			isa = PBXGroup;
 			children = (
 				72A7D84D23521940006AB86D /* AFOSchedulerCore */,
 				72A7D84C23521940006AB86D /* Products */,
+				4B5F76375CE1FECF6837862A /* Pods */,
+				41EE7152E44ABA81B6C21B21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72A7D85323521940006AB86D /* Build configuration list for PBXNativeTarget "AFOSchedulerCore" */;
 			buildPhases = (
+				37C1960B812B772BF3504BBB /* [CP] Check Pods Manifest.lock */,
 				72A7D84623521940006AB86D /* Headers */,
 				72A7D84723521940006AB86D /* Sources */,
 				72A7D84823521940006AB86D /* Frameworks */,
@@ -152,6 +177,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37C1960B812B772BF3504BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFOSchedulerCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72A7D84723521940006AB86D /* Sources */ = {
@@ -285,6 +335,7 @@
 		};
 		72A7D85423521940006AB86D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E8F33F7CA2BA7C2A802180 /* Pods-AFOSchedulerCore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -309,6 +360,7 @@
 		};
 		72A7D85523521940006AB86D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D45F688B464FF075856F40 /* Pods-AFOSchedulerCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
