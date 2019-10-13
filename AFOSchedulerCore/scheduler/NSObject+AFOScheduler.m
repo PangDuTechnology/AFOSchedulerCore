@@ -14,6 +14,6 @@
 }
 - (nullable id)schedulerPerformSelector:(SEL)selector
                             params:(nullable NSArray *)params{
-    return nil;
+    return [[AFOSchedulerInvocation shareSchedulerCore] schedulerInstanceMethod:selector target:self params:params];
 }
 @end
