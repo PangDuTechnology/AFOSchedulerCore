@@ -60,9 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				7272CD072352A8DF00E26BA4 /* AFOSchedulerCore.h */,
+				7272CD0A2352A8DF00E26BA4 /* AFOSchedulerCore.m */,
 				7272CD082352A8DF00E26BA4 /* NSObject+AFOScheduler.h */,
 				7272CD092352A8DF00E26BA4 /* NSObject+AFOScheduler.m */,
-				7272CD0A2352A8DF00E26BA4 /* AFOSchedulerCore.m */,
 			);
 			path = scheduler;
 			sourceTree = "<group>";

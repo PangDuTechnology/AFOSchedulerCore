@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.public_header_files = 'AFOSchedulerCore/AFOSchedulerCore.h'   
   
   s.subspec 'scheduler' do |scheduler|
-      scheduler.source_files = 'AFORouter/scheduler/*.{h,m}' 
-      scheduler.public_header_files = 'AFORouter/scheduler/*.h'
+      scheduler.source_files = 'AFOSchedulerCore/scheduler/*.{h,m}' 
+      scheduler.public_header_files = 'AFOSchedulerCore/scheduler/*.h'
   end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
