@@ -14,8 +14,8 @@
 		20FC6D6198B3DEEBF5B4A26F276BA186 /* Pods-AFOSchedulerCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFOSchedulerCore.release.xcconfig"; sourceTree = "<group>"; };
 		2DCBEFFAFBDE3DD32B50188496C03245 /* Pods-AFOSchedulerCore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFOSchedulerCore-acknowledgements.plist"; sourceTree = "<group>"; };
 		61ADC511FE82106154FA1607AF002F57 /* Pods-AFOSchedulerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFOSchedulerCore-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5085EA4B77B377612607F37D7FCD6E6 /* libPods-AFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AFOSchedulerCore.a"; path = "libPods-AFOSchedulerCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5085EA4B77B377612607F37D7FCD6E6 /* libPods-AFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOSchedulerCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6670BFD7EAB904A5CA0FD17E83A012 /* Pods-AFOSchedulerCore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFOSchedulerCore-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC2DDB15F02AB4E0A29325621A590382 /* Pods-AFOSchedulerCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFOSchedulerCore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +122,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = FB26F704F975C3DCFA58BBE8D1B9A2EA /* Products */;
