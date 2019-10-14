@@ -28,6 +28,18 @@ Pod::Spec.new do |s|
       scheduler.source_files = 'AFOSchedulerCore/scheduler/*.{h,m}' 
       scheduler.public_header_files = 'AFOSchedulerCore/scheduler/*.h'
   end
+  s.subspec 'playList' do |playList|
+      playList.source_files = 'AFOSchedulerCore/playList/*.{h,m}' 
+      playList.public_header_files = 'AFOSchedulerCore/playList/*.h'
+  end
+  s.subspec 'homePage' do |homePage|
+      homePage.source_files = 'AFOSchedulerCore/homePage/*.{h,m}' 
+      homePage.public_header_files = 'AFOSchedulerCore/homePage/*.h'
+  end
+  s.subspec 'rooter' do |rooter|
+      rooter.source_files = 'AFOSchedulerCore/rooter/*.{h,m}' 
+      rooter.public_header_files = 'AFOSchedulerCore/rooter/*.h'
+  end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

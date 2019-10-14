@@ -95,9 +95,33 @@
 			isa = PBXGroup;
 			children = (
 				7272CD0F2352AA4300E26BA4 /* AFOSchedulerCore.h */,
+				72B3D4592354233E00DE231D /* rooter */,
+				72B3D4582354231B00DE231D /* playList */,
+				72B3D45723541E1000DE231D /* homePage */,
 				7272CD102352AA4300E26BA4 /* scheduler */,
 			);
 			path = AFOSchedulerCore;
+			sourceTree = "<group>";
+		};
+		72B3D45723541E1000DE231D /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		72B3D4582354231B00DE231D /* playList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = playList;
+			sourceTree = "<group>";
+		};
+		72B3D4592354233E00DE231D /* rooter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = rooter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
