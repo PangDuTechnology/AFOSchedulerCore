@@ -6,10 +6,7 @@
 //  Copyright © 2019 piccolo. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
-
-
-#import <AFOSchedulerCore/AFOSchedulerCore.h>
+#import <AFOSchedulerCore/AFOSchedulerBaseClass.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

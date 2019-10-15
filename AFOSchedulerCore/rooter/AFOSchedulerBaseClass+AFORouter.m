@@ -7,10 +7,6 @@
 //
 
 #import "AFOSchedulerBaseClass+AFORouter.h"
-
-#import <AppKit/AppKit.h>
-
-
 @implementation AFOSchedulerBaseClass (AFORouter)
 
 @end
