@@ -19,6 +19,8 @@
 		7272CD192352AA4300E26BA4 /* AFOSchedulerInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7272CD142352AA4300E26BA4 /* AFOSchedulerInvocation.m */; };
 		727E18102355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 727E180E2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		727E18112355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E180F2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m */; };
+		727E18142355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 727E18122355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727E18152355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E18132355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.m */; };
 		72B3D45D235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B3D45B235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72B3D45E235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B3D45C235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,8 @@
 		7272CD142352AA4300E26BA4 /* AFOSchedulerInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerInvocation.m; sourceTree = "<group>"; };
 		727E180E2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFOHomePage.h"; sourceTree = "<group>"; };
 		727E180F2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFOHomePage.m"; sourceTree = "<group>"; };
+		727E18122355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFORouter.h"; sourceTree = "<group>"; };
+		727E18132355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFORouter.m"; sourceTree = "<group>"; };
 		72A7D84B23521940006AB86D /* AFOSchedulerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOSchedulerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B3D45B235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFOFFMpeg.h"; sourceTree = "<group>"; };
 		72B3D45C235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFOFFMpeg.m"; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 		72B3D4592354233E00DE231D /* rooter */ = {
 			isa = PBXGroup;
 			children = (
+				727E18122355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.h */,
+				727E18132355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.m */,
 			);
 			path = rooter;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 				722BA50A235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h in Headers */,
 				72B3D45D235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h in Headers */,
 				7272CD162352AA4300E26BA4 /* AFOSchedulerInvocation.h in Headers */,
+				727E18142355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.h in Headers */,
 				727E18102355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h in Headers */,
 				72170600235301FC00AE8A4A /* AFOSchedulerBaseClass.h in Headers */,
 			);
@@ -265,6 +272,7 @@
 				72170601235301FC00AE8A4A /* AFOSchedulerBaseClass.m in Sources */,
 				722BA50B235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m in Sources */,
 				727E18112355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m in Sources */,
+				727E18152355AF2100F150DC /* AFOSchedulerBaseClass+AFORouter.m in Sources */,
 				7272CD182352AA4300E26BA4 /* NSObject+AFOScheduler.m in Sources */,
 				7272CD192352AA4300E26BA4 /* AFOSchedulerInvocation.m in Sources */,
 			);
