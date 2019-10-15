@@ -7,7 +7,7 @@
 //
 
 #import "AFOSchedulerBaseClass+AFOFFMpeg.h"
-
 @implementation AFOSchedulerBaseClass (AFOFFMpeg)
-
++ (void)schedulerMediaPlayReceiverParameters:(id)parameter{
+}
 @end

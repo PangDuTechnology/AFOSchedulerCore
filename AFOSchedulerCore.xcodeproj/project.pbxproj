@@ -10,12 +10,16 @@
 		66E5986A6B2863D86DA01C04 /* libPods-AFOSchedulerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */; };
 		72170600235301FC00AE8A4A /* AFOSchedulerBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 721705FE235301FC00AE8A4A /* AFOSchedulerBaseClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72170601235301FC00AE8A4A /* AFOSchedulerBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 721705FF235301FC00AE8A4A /* AFOSchedulerBaseClass.m */; };
+		722BA50A235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 722BA508235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722BA50B235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 722BA509235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m */; };
 		7272CD152352AA4300E26BA4 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272CD0F2352AA4300E26BA4 /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7272CD162352AA4300E26BA4 /* AFOSchedulerInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272CD112352AA4300E26BA4 /* AFOSchedulerInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7272CD172352AA4300E26BA4 /* NSObject+AFOScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272CD122352AA4300E26BA4 /* NSObject+AFOScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7272CD182352AA4300E26BA4 /* NSObject+AFOScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7272CD132352AA4300E26BA4 /* NSObject+AFOScheduler.m */; };
 		7272CD192352AA4300E26BA4 /* AFOSchedulerInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7272CD142352AA4300E26BA4 /* AFOSchedulerInvocation.m */; };
-		72B3D45D235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B3D45B235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h */; };
+		727E18102355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 727E180E2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h */; };
+		727E18112355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E180F2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m */; };
+		72B3D45D235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B3D45B235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72B3D45E235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B3D45C235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +27,15 @@
 		1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOSchedulerCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		721705FE235301FC00AE8A4A /* AFOSchedulerBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerBaseClass.h; sourceTree = "<group>"; };
 		721705FF235301FC00AE8A4A /* AFOSchedulerBaseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerBaseClass.m; sourceTree = "<group>"; };
+		722BA508235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFOPlayList.h"; sourceTree = "<group>"; };
+		722BA509235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFOPlayList.m"; sourceTree = "<group>"; };
 		7272CD0F2352AA4300E26BA4 /* AFOSchedulerCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerCore.h; sourceTree = "<group>"; };
 		7272CD112352AA4300E26BA4 /* AFOSchedulerInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerInvocation.h; sourceTree = "<group>"; };
 		7272CD122352AA4300E26BA4 /* NSObject+AFOScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AFOScheduler.h"; sourceTree = "<group>"; };
 		7272CD132352AA4300E26BA4 /* NSObject+AFOScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AFOScheduler.m"; sourceTree = "<group>"; };
 		7272CD142352AA4300E26BA4 /* AFOSchedulerInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerInvocation.m; sourceTree = "<group>"; };
+		727E180E2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFOHomePage.h"; sourceTree = "<group>"; };
+		727E180F2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFOHomePage.m"; sourceTree = "<group>"; };
 		72A7D84B23521940006AB86D /* AFOSchedulerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOSchedulerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B3D45B235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFOFFMpeg.h"; sourceTree = "<group>"; };
 		72B3D45C235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFOFFMpeg.m"; sourceTree = "<group>"; };
@@ -111,6 +119,8 @@
 		72B3D45723541E1000DE231D /* homePage */ = {
 			isa = PBXGroup;
 			children = (
+				727E180E2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h */,
+				727E180F2355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m */,
 			);
 			path = homePage;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 		72B3D4582354231B00DE231D /* playList */ = {
 			isa = PBXGroup;
 			children = (
+				722BA508235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h */,
+				722BA509235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m */,
 			);
 			path = playList;
 			sourceTree = "<group>";
@@ -147,9 +159,11 @@
 			files = (
 				7272CD152352AA4300E26BA4 /* AFOSchedulerCore.h in Headers */,
 				7272CD172352AA4300E26BA4 /* NSObject+AFOScheduler.h in Headers */,
+				727E18102355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.h in Headers */,
+				722BA50A235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h in Headers */,
+				72B3D45D235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h in Headers */,
 				7272CD162352AA4300E26BA4 /* AFOSchedulerInvocation.h in Headers */,
 				72170600235301FC00AE8A4A /* AFOSchedulerBaseClass.h in Headers */,
-				72B3D45D235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +263,8 @@
 			files = (
 				72B3D45E235424B300DE231D /* AFOSchedulerBaseClass+AFOFFMpeg.m in Sources */,
 				72170601235301FC00AE8A4A /* AFOSchedulerBaseClass.m in Sources */,
+				722BA50B235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m in Sources */,
+				727E18112355AC4900F150DC /* AFOSchedulerBaseClass+AFOHomePage.m in Sources */,
 				7272CD182352AA4300E26BA4 /* NSObject+AFOScheduler.m in Sources */,
 				7272CD192352AA4300E26BA4 /* AFOSchedulerInvocation.m in Sources */,
 			);
