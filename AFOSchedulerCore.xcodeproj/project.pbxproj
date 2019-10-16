@@ -10,6 +10,7 @@
 		66E5986A6B2863D86DA01C04 /* libPods-AFOSchedulerCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */; };
 		72170600235301FC00AE8A4A /* AFOSchedulerBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 721705FE235301FC00AE8A4A /* AFOSchedulerBaseClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72170601235301FC00AE8A4A /* AFOSchedulerBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 721705FF235301FC00AE8A4A /* AFOSchedulerBaseClass.m */; };
+		7222822F2356E64D0039601A /* AFOSchedulerPassValueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7222822E2356E64D0039601A /* AFOSchedulerPassValueDelegate.h */; };
 		722BA50A235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 722BA508235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		722BA50B235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 722BA509235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m */; };
 		7272CD152352AA4300E26BA4 /* AFOSchedulerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7272CD0F2352AA4300E26BA4 /* AFOSchedulerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 		1F99FD1EB045994A154F0B94 /* libPods-AFOSchedulerCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOSchedulerCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		721705FE235301FC00AE8A4A /* AFOSchedulerBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerBaseClass.h; sourceTree = "<group>"; };
 		721705FF235301FC00AE8A4A /* AFOSchedulerBaseClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOSchedulerBaseClass.m; sourceTree = "<group>"; };
+		7222822E2356E64D0039601A /* AFOSchedulerPassValueDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerPassValueDelegate.h; sourceTree = "<group>"; };
 		722BA508235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOSchedulerBaseClass+AFOPlayList.h"; sourceTree = "<group>"; };
 		722BA509235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOSchedulerBaseClass+AFOPlayList.m"; sourceTree = "<group>"; };
 		7272CD0F2352AA4300E26BA4 /* AFOSchedulerCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOSchedulerCore.h; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				7272CD142352AA4300E26BA4 /* AFOSchedulerInvocation.m */,
 				7272CD122352AA4300E26BA4 /* NSObject+AFOScheduler.h */,
 				7272CD132352AA4300E26BA4 /* NSObject+AFOScheduler.m */,
+				7222822E2356E64D0039601A /* AFOSchedulerPassValueDelegate.h */,
 				721705FE235301FC00AE8A4A /* AFOSchedulerBaseClass.h */,
 				721705FF235301FC00AE8A4A /* AFOSchedulerBaseClass.m */,
 			);
@@ -163,6 +166,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7222822F2356E64D0039601A /* AFOSchedulerPassValueDelegate.h in Headers */,
 				7272CD152352AA4300E26BA4 /* AFOSchedulerCore.h in Headers */,
 				7272CD172352AA4300E26BA4 /* NSObject+AFOScheduler.h in Headers */,
 				722BA50A235455EB007A3945 /* AFOSchedulerBaseClass+AFOPlayList.h in Headers */,
