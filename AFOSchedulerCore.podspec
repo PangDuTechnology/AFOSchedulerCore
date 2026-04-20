@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOSchedulerCore"
-  s.version      = "0.0.2"
+  s.version      = "0.1.0"
   s.summary      = "Scheduler."
   s.description  = 'Decoupling with NSInvocation.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOSchedulerCore.git"
@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
   s.author             = { "PangDu" => "xian312117@gmail.com" }
   
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "13.0"
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = "13.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOSchedulerCore.git", :tag => s.version.to_s }
