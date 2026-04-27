@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOSchedulerCore"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Scheduler."
   s.description  = 'Decoupling with NSInvocation.'
   s.homepage     = "https://github.com/PangDuTechnology/AFOSchedulerCore.git"
@@ -29,14 +29,17 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'playList' do |playList|
+      playList.dependency 'AFOSchedulerCore/scheduler'
       playList.source_files = 'AFOSchedulerCore/playList/*.{h,m}' 
       playList.public_header_files = 'AFOSchedulerCore/playList/*.h'
   end
   s.subspec 'homePage' do |homePage|
+      homePage.dependency 'AFOSchedulerCore/scheduler'
       homePage.source_files = 'AFOSchedulerCore/homePage/*.{h,m}' 
       homePage.public_header_files = 'AFOSchedulerCore/homePage/*.h'
   end
   s.subspec 'rooter' do |rooter|
+      rooter.dependency 'AFOSchedulerCore/scheduler'
       rooter.source_files = 'AFOSchedulerCore/rooter/*.{h,m}' 
       rooter.public_header_files = 'AFOSchedulerCore/rooter/*.h'
   end
